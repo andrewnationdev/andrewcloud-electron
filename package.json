@@ -1,0 +1,22 @@
+{
+  "name": "AndrewCloud",
+  "version": "1.0.0",
+  "description": "Armazenamento em nuvem gratuito de até 100 GB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "linux": {
+    "icon": "./icon.png"
+  },
+  "win": {
+    "icon": "./icon.png"
+  },
+  "author": "AndrewNation",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-packager": "^17.1.2"
+  }
+}
